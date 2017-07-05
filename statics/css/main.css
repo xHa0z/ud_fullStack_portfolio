@@ -1,0 +1,56 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 80%;
+}
+
+hr {
+    border-color: #2d3c49;
+}
+
+#logo img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+img {
+    display: block;
+    margin:auto;
+}
+
+
+
+#header-text h1 {
+    font-weight:100;
+    font-size: 500%;
+}
+
+
+div.row h2 {
+    color: #7d97ad;
+}
+
+.col-md-4 h3, p{
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    #logo img{
+        display: block;
+        margin: auto;
+        margin-top:20px;
+    }
+    #header-text h1, h4{
+        text-align: center;
+    }
+
+    #main-body {
+        display: none;
+    }
+
+}
