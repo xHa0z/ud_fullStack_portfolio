@@ -33,7 +33,7 @@ img {
 }
 
 
-div.row h2 {
+.col-md-12 h2 {
     color: #7d97ad;
 }
 
@@ -49,10 +49,6 @@ div.row h2 {
     }
     #header-text h1, h4 {
         text-align: center;
-    }
-
-    #main-body {
-        display: none;
     }
 
 }
